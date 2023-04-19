@@ -8,6 +8,7 @@ background-color: #000000;
 color: white;
 display:flex;
 justify-content: space-around;
+align-items: center;
 padding: 24px 0;
 }
 .cabecalho-imagem{
@@ -55,4 +56,9 @@ body{
 .estudante-todos{
     display: grid;
     grid-template-columns: 10% 20% 20% 20% 20%;
+}
+footer{
+    background-color: red;
+    padding: 15px 0;
+    text-align: center;
 }
